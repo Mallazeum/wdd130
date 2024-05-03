@@ -40,7 +40,7 @@ nav{
 
 nav a {
     display: block;
-    columns: var(--nav-link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
