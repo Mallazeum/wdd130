@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Slabo+27px&display=swap');
-Body{
+body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
