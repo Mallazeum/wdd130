@@ -25,7 +25,7 @@ p {
     color: var(--primary-color);
 }
 
-nav a {
+a {
     text-decoration: none;
 }
 
