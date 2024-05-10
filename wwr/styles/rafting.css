@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Slabo+27px&display=swap');
+:root {
+    --primary-color: #094074;
+    --secondary-color: #ffdd4a;
+    --accent1-color: #5ADBFF;
+    --accent2-color: #FE9000;
+
+    --heading-font: 'Permanent Marker';
+    --paragraph-font: 'Slabo 27px', 'slab serif';
+
+    --nav-background-color: #094074;
+    --nav-link-color: #ffdd4a;
+    --nav-hover-link-color: #5ADBFF;
+    --nav-hover-background-color: #FE9000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+
+div article {
+    bottom: 10rem;
+    left: 10rem;
+    width: 50rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .75);
+    padding: 20px;
+}
+
+div article p {
+    color: var(--secondary-color);
+}
+
+div h1 {
+    position: absolute;
+    top: 10rem;
+    background-color: rgba(0, 0, 0, .75);
+    color: var(--secondary-color);
+    text-align: center;
+    width: 100%;
+}
+
+#custpic {
+    float: right;
+    width: 300px;
+    height: auto;
+}
+
+
+
+/* Classes */
+.hero {
+    position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
