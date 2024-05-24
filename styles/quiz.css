@@ -46,11 +46,13 @@ label {
     padding-right: 1rem;
 }
 
-legend {
-    padding: 0.5rem;
+h2 {
+    padding: 0rem;
     color: navy;
     font-size: 1.4rem;
     border-bottom: 1px solid #ccc;
+    width: 20px;
+    text-align: center;
 }
 
 form p {
