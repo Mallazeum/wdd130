@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Contact Us - Gravity Adventures | Johnathan Larson</title>
+        <meta name="description" content="Gravity Adventures' Contact us page for a rafting site built by Johnathan Larson in WDD130">
+        <meta name="author" content="Johnathan Larson">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Rafting Site Logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Contact Us</h1>
+            <div class="contact-grid">
+                <h3>Address</h3>
+                <p>1550 Easter Egg Hill,
+                   Vernal Utah , 84078</p>
+                <h3>Phone #</h3>
+                <p>(123)456-7890</p>
+                <h3>Email</h3>
+                <p>gravadventure@gmail.com</p>
+            </div>
+            <h3>Map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d17218.560974199125!2d-109.52688915289313!3d40.27929748084041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1716592436242!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="figrow">
+                <figure>
+                    <img src="images/employee1.avif" alt="A picture of Team Lead Sally">
+                    <figcaption>Team Lead: Sally</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.avif" alt="A picture of Trip Specialist Steve">
+                    <figcaption>Trip specialist: Steve</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.avif" alt="Trip Guide Jared">
+                    <figcaption>Trip Guide: Jared</figcaption>
+                </figure>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>User Submitted Inquiry</legend>
+
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    
+                    <div class="radio-buttons">
+                        <label id="purpose-question">What is the purpose of this inquiry?</label>
+
+                        <input type="radio" id="general" name="purpose">
+                        <label for="general">General Inquiry</label>
+
+                        
+                        <input type="radio" id="reservation" name="purpose">
+                        <label for="reservation">Reservation Question</label>
+                        
+                        <input type="radio" id="suggestion" name="purpose">
+                        <label for="suggestion">Website Suggestion</label>  
+                    </div>
+
+                    <label for="message">Inquiry:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                    
+                    <div class="sub">
+                        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                    </div>
+
+                    <button type="submit">Submit Inquiry</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer class="footrow">
+            <p>©️2024 🎮 Gravity Adventures 🎮 Johanthan Larson  </p>
+            <a href="https://facebook.com">
+                <img src="images/facebook.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.webp" alt="instagram">
+            </a>
+        </footer>
+    </body>
+</html>
