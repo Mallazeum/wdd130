@@ -186,6 +186,37 @@ footer img{
     height: auto;
 }
 
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: var(--paragraph-font);
+    font-size: larger;
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+caption {
+    padding: 10px;
+    font-weight: bold;
+    font-family: var(--heading-font);
+    font-size: large;
+}
+
+thead {
+    background-color: rgb(228 240 245);
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+    text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
 
 
 /* Classes */
@@ -236,4 +267,39 @@ footer img{
     display: flex;
     flex-direction: row;
     padding: 1rem;
+}
+
+.headbar {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1rem;
+}
+
+.actioncall {
+    border: 1px solid var(--accent2-color);
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.stories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr 1fr;
+    border: 1px solid var(--accent2-color);
+    padding: 1rem;
+    margin: auto;
+}
+
+.stories p {
+    grid-column: span 2;
+}
+
+.stories h2 {
+    grid-column: span 3;
+}
+
+.stories img {
+    justify-self: center;
+    align-self: center;
 }
